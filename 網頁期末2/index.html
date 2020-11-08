@@ -30,7 +30,15 @@
     body{
         font-family: 'Noto Sans TC', sans-serif;
         margin: 0;
+        /* background-attachment: fixed;
+        background-size: cover; */
+        z-index: 3;
     }
+    .con{
+        background-attachment: fixed;
+        height: 80%;
+    }
+
 </style>
 <body>
 
@@ -40,52 +48,54 @@
             <h1>傳說對決一至四週年</h1>
         </div><!-- /header -->
 
-        <div data-role="content" data-position="fixed">
-            <div data-role="navbar">
-            <ul>
-                <li><a href="#page01" data-icon="bullets">第一週年</a></li>
-                <li><a href="#page02" data-icon="clock">第二週年</a></li>
-                <li><a href="#page03" data-icon="bullets">第三週年</a></li>
-                <li><a href="#page04" data-icon="clock" data-transition="slidedown">第四週年</a></li>
-            </ul>
-            </div>
-        </div>
+        <div data-role="content" style="background-image:url(images/background.jpg)" class="con">
+                <div data-role="content" data-position="fixed" >
+                    <div data-role="navbar">
+                    <ul>
+                        <li><a href="#page01" data-icon="bullets">第一週年</a></li>
+                        <li><a href="#page02" data-icon="clock">第二週年</a></li>
+                        <li><a href="#page03" data-icon="bullets">第三週年</a></li>
+                        <li><a href="#page04" data-icon="clock" data-transition="slidedown">第四週年</a></li>
+                    </ul>
+                    </div>
+                </div>
 
-        <div data-role="main" class="ui-content">
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                <h4>第一週年</h4>
-                <ul data-role="listview">
-                <li><a href="#page01">詳細資料</a></li>
-                </ul>
-            </div>
-        </div>
+                <div data-role="main" class="ui-content">
+                    <div data-role="collapsible" data-theme="b" data-content-theme="a">
+                        <h4>第一週年</h4>
+                        <ul data-role="listview">
+                        <li><a href="#page01">詳細資料</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-        <div data-role="main" class="ui-content">
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                <h4>第二週年</h4>
-                <ul data-role="listview">
-                <li><a href="#page02">詳細資料</a></li>
-                </ul>
-            </div>
-        </div>
+                <div data-role="main" class="ui-content">
+                    <div data-role="collapsible" data-theme="b" data-content-theme="a">
+                        <h4>第二週年</h4>
+                        <ul data-role="listview">
+                        <li><a href="#page02">詳細資料</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-        <div data-role="main" class="ui-content">
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                <h4>第三週年</h4>
-                <ul data-role="listview">
-                <li><a href="#page03">詳細資料</a></li>
-                </ul>
-            </div>
-        </div>
+                <div data-role="main" class="ui-content">
+                    <div data-role="collapsible" data-theme="b" data-content-theme="a">
+                        <h4>第三週年</h4>
+                        <ul data-role="listview">
+                        <li><a href="#page03">詳細資料</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-        <div data-role="main" class="ui-content">
-            <div data-role="collapsible" data-theme="b" data-content-theme="a">
-                <h4>第四週年</h4>
-                <ul data-role="listview">
-                <li><a href="#page04">詳細資料</a></li>
-                </ul>
-            </div>
-        </div>    
+                <div data-role="main" class="ui-content">
+                    <div data-role="collapsible" data-theme="b" data-content-theme="a">
+                        <h4>第四週年</h4>
+                        <ul data-role="listview">
+                        <li><a href="#page04">詳細資料</a></li>
+                        </ul>
+                    </div>
+                </div>      
+        </div>
             
         <div data-role="footer" data-position="fixed">
             <h4>copyright &copy; 2020 Shawn@Wenzao DCAM</h4>
